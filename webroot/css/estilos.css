@@ -1,0 +1,38 @@
+li{
+    list-style: none;
+    display:inline-block;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#nav{
+  text-align: center;
+}
+ul{
+    list-style: none;
+    background-color: skyblue;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: skyblue
+}
+footer img{
+    height:25px; 
+    width:25px;
+}
+*{
+    font-family: 'Comic Sans MS';
+}
+#modulos{
+    columns: 2;
+    
+}
+.modulo{
+    border: 1px black solid;
+}
