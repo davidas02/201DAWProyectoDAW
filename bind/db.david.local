@@ -1,0 +1,27 @@
+;
+; BIND data for david.local
+;
+$TTL	604800
+@		IN SOA	das-used.david.local. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 3600 )		; Negative Cache TTL
+;
+@		IN	NS	das-used.david.local.
+; Registros Host
+@		IN	A	192.168.3.208
+das-used	IN	A	192.168.3.208
+
+; Registros Alias
+
+daw201	IN	CNAME	das-used.david.local.
+daw202	IN	CNAME	das-used.david.local.
+daw203	IN	CNAME	das-used.david.local.
+daw204	IN	CNAME	das-used.david.local.
+
+www.daw201	IN	CNAME	das-used.david.local.
+www.daw202	IN	CNAME	das-used.david.local.
+www.daw203	IN	CNAME	das-used.david.local.
+www.daw204	IN	CNAME	das-used.david.local.

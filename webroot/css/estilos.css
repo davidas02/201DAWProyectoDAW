@@ -1,20 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 li{
     list-style: none;
-    display: block;
-    border: 1px black solid;
-    border-collapse: collapse;
-    
+    background-color: skyblue;
+    height: 48px;
+    line-height: 48px;
+    display: flex;
+    flex-direction: column
+}
+li a{
+    padding-left: 50%;
 }
 a{
     text-decoration: none;
     color: black;
 }
 #nav{
-  text-align: center;
+  text-align: left;
+  top: 200px;
+  position: relative;
 }
 ul{
     list-style: none;
-    background-color: skyblue;
 }
 footer{
     position: fixed;
@@ -36,4 +46,16 @@ footer img{
 }
 .modulo{
     border: 1px black solid;
+}
+header{
+    position: relative;
+    width: 100%;
+}
+#izq{
+    position: absolute;
+    left: 0;
+}
+#der{
+    position: absolute;
+    left: 200px;
 }
