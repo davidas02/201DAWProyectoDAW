@@ -1,20 +1,20 @@
 li{
     list-style: none;
-    display: block;
-    border: 1px black solid;
-    border-collapse: collapse;
     
+    height: 48px;
+    line-height: 48px;
+    display: flex;
+    flex-direction: column
 }
 a{
     text-decoration: none;
     color: black;
 }
 #nav{
-  text-align: center;
+  text-align: left;
 }
 ul{
     list-style: none;
-    background-color: skyblue;
 }
 footer{
     position: fixed;
