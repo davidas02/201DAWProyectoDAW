@@ -1,0 +1,9 @@
+dn: ou=OU_Jefes,dc=david,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: OU_Jefes
+
+dn: ou=OU_Curritos,dc=david,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: OU_Curritos
