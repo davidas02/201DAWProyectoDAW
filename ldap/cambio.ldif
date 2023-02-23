@@ -1,0 +1,22 @@
+dn: uid=jefe1,ou=OU_Jefes,dc=david,dc=local
+changetype:modify
+replace: mail
+mail: eljefe1@david.local
+
+dn: uid=jefe2,ou=OU_Jefes,dc=david,dc=local
+changetype: modify
+replace: ou
+ou: OU_Jefes
+
+dn: uid=currito1,ou=OU_Curritos,dc=david,dc=local
+changetype: modify
+replace: ou
+ou: OU_Curritos
+
+
+dn: uid=currito2,ou=OU_Curritos,dc=david,dc=local
+changetype: modify
+replace: ou
+ou: OU_Curritos
+
+
